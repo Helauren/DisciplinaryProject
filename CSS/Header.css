@@ -1,0 +1,134 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(234, 161, 66);
+}
+
+a, button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover, button:hover {
+  color: rgb(219, 215, 145);
+  cursor: pointer;
+}
+
+#logo {
+  width: 25%;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 10px 10px;
+}
+
+#nav_links {
+  list-style: none;
+  margin-left: -22%;
+}
+
+#nav_links, li {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+#nav_links li {
+  display: inline-block;
+  padding: 0% 20px;
+}
+
+#acc button {
+  border-radius: 50px;
+  border: none;
+  padding: 5px 8px;
+  background-color: rgb(187, 119, 18);
+}
+
+#acc button:hover {
+  background-color: rgb(187, 119, 18);
+}
+
+.dd {
+  display: none;
+}
+
+#nav_links #Objectives:hover #Objectives_dd {
+  display: block; 
+}
+
+#nav_links #Inventory:hover #Inventory_dd {
+  display: block; 
+}
+
+#nav_links #Box_office:hover #Box_office_dd {
+  display: block; 
+}
+
+#nav_links #Communication:hover #Communication_dd {
+  display: block; 
+}
+
+#ulaccount #lii {
+  width: 10%;
+  margin-left: 10px;
+} */
+
+/*li a .Acc {
+  text-decoration: none;
+  list-style: none;
+  margin: 50px 0px;
+}
+
+.Acc:hover {
+
+}
+
+/*body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+#container {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 0;
+  background-color: aliceblue;
+  font-size: small;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.nav {
+  margin: 0;
+  padding: 5px 0;
+}
+
+ul.nav li {
+  padding-right: 10px;
+  text-align: right;
+}
+
+ul.nav li a {
+  text-decoration: none;
+}
+
+ul.nav li a:hover {
+  text-decoration: underline;
+  color: rgb(20, 20, 158);
+}
+
+li#acc {
+  padding: 5px 5px 5px 10px;
+}*/

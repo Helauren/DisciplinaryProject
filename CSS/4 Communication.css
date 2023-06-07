@@ -1,0 +1,250 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  header {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  padding: 20px 20px 10px 10px;
+	  margin-bottom: 50px;
+	  background-color: rgb(255, 0, 0);
+	  border-style: solid;
+	  border-top: 0;
+	  border-left: 0;
+	  border-right: 0;
+	  border-width: 2px;
+	  border-color: rgb(99, 36, 36);
+	  position: fixed;
+	  top: 0px;
+	width: 100%;
+	}
+  
+  header * {
+	background-color: rgb(255, 0, 0);
+  }
+  
+  a, button {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+  }
+  
+  a:hover, button:hover {
+	color: rgb(239, 161, 161);
+	cursor: pointer;
+  }
+  
+  #logo {
+	width: 25%;
+  }
+  
+  #logo:hover {
+	cursor: pointer;
+  }
+  
+  #nav_links {
+	list-style: none;
+	margin-left: -22%;
+  }
+  
+  #nav_links, li {
+	list-style: none;
+	padding: 0px 20px;
+  }
+  
+  #nav_links li {
+	display: inline-block;
+	padding: 0% 20px;
+  }
+  
+  #ulaccount {
+	padding: 0px;
+	width: 250px;
+	margin-right: 0px;
+  }
+  
+  #acc button {
+	border-radius: 50px;
+	margin-right: -20px;
+	border: none;
+	padding: 5px 8px;
+	background-color: rgb(214, 28, 28);
+  }
+  
+  #acc button:hover {
+	background-color: rgb(167, 33, 33);
+  }
+  
+  .dd {
+	display: none;
+  }
+  
+  #nav_links #Objectives:hover #Objectives_dd {
+	display: block; 
+  }
+  
+  #nav_links #Inventory:hover #Inventory_dd {
+	display: block; 
+  }
+  
+  #nav_links #Box_office:hover #Box_office_dd {
+	display: block; 
+  }
+  
+  #nav_links #Communication:hover #Communication_dd {
+	display: block; 
+  }
+  
+  #ulaccount #lii {
+	width: 15%;
+	margin-left: 14px;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 10% auto 0px auto;
+  }
+
+table {
+	margin: 50px auto;
+	border-color: aliceblue;
+}
+
+#Staff_schedule, table {
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: #949494;
+}
+
+th, td {
+	border: 2px solid #a9a9a9;
+	padding: 8px;
+	text-align: center;
+  }
+  
+  th {
+	background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+	background-color: #fcf9f9;
+  }
+  
+  tr:hover {
+	background-color: #ddd;
+  }
+
+h1 {
+	margin: 20px 0;
+	margin-top: 50px;
+}
+
+img {
+	margin: auto;
+}
+
+/* #communication {
+	position: absolute;
+	right: 100px;
+	top: 1280px;
+} */
+
+#red {
+	color: red;
+}
+
+#warning {
+	width: 15px;
+	margin-left: 15px;
+}
+
+#download {
+	color: rgb(61, 58, 58);
+	margin-bottom: 100px;
+	text-decoration: underline;
+	text-decoration-color: rgb(145, 141, 141);
+}
+
+#download:hover {
+	color: rgb(132, 129, 129);
+	text-decoration-color: rgb(156, 152, 152);
+	cursor: pointer;
+}
+
+footer {
+	background-color: #bbb4b4;
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: 50px;
+  }
+  
+  footer ul li a{
+	text-align: center;
+	color: #000000;
+  }
+
+  footer ul li a:hover{
+	color: #4b4848;
+  }
+
+  #navbar {
+	position: relative;
+  }
+  
+  #data, #inventory, #box_office, #communication {
+	position: relative;
+  }
+  
+  #data_dd, #inventory_dd, #box_office_dd, #communication_dd {
+	display: none; /* Hide the dropdown menu by default */
+	position: relative;
+  }
+  
+  #data_dd li, #inventory_dd li, #box_office_dd li, #communication_dd li {
+	position: relative;
+	display: table;
+	padding: 2px;
+	width: 100%;
+	top: 100%;  
+  }
+  
+  #data_dd li a, #inventory_dd li a, #box_office_dd li a, #communication_dd li a {
+	color: #dcd3d3;
+  }
+  
+  #data:hover, #inventory:hover, #box_office:hover,
+  #communication:hover {
+	color: #fcf9f9;
+  }
+  
+  #data:hover + #data_dd { 
+	display: block;
+	position: fixed;
+	top: 15%;
+	left: 30%;
+  }
+  
+  #inventory:hover + #inventory_dd {
+	display: block;
+	position: fixed;
+	top: 15%;
+	left: 38%;
+  }
+  
+  #box_office:hover + #box_office_dd {
+	display: block;
+	position: fixed;
+	top: 15%;
+	left: 46%;
+  }
+  
+  #communication:hover + #communication_dd {
+	display: block;
+	position: fixed;
+	top: 15%;
+	left: 53%;
+  }
